@@ -1,23 +1,32 @@
-# Para empezar 
 
-Es necesario bajar el código del este repositorio. Esto puede hacerse
-utilizando directamente `git` o alternativamente bajando el proyecto como un
-`zip`. Se recomienda la primera opción que se explica a continuación.
+---
 
-1. `git clone https://git.exactas.uba.ar/mmiguel/aed2-2c2017-tp2.git`
-2. (Opcional) Desde CLion, ir a File -> Import Project, "Open Project".
- Una vez que termina la carga del proyecto, para correr los tests, 
- elegir "correrTests" desde la esquina superior derecha y 
- hacer click en el botón Play.
- 
-# Cómo correr los tests desde la línea de comandos (si no usan CLion)
+# Enhanced C++ Database System
 
-1. mkdir build && cd build
-2. cmake ..
-3. make
-4. ./correrTests
+## Overview
+This project builds on a previously developed database management system in C++, enhancing it with more advanced functionalities. It introduces new features such as creating indices for tables, performing efficient join operations between tables, and tracking the frequency of search criteria usage. The aim was to optimize the system while taking into account algorithmic complexity to ensure high performance during various operations.
 
-Para volver a compilar, simplemente correr "make" de nuevo.
+### Key Enhancements:
+- Implementation of custom data structures like AVL trees and `linear_map` to optimize data management.
+- Added functionality for index creation to accelerate search operations.
+- Introduced join operations between tables, designed with efficient algorithms for reduced computational cost.
+- Enhanced data validation and insertion methods to ensure correctness and efficiency.
+- Comprehensive tracking of search criteria usage to provide insights into query performance.
 
-En caso de que no funcione correctamente la compilación, pueden borrar 
-el directorio "build" y volver a realizar los 4 pasos.
+## Skills Demonstrated
+This project highlights:
+- **Advanced C++ programming**: Using complex data structures and templates for scalable code.
+- **Algorithmic complexity**: Designing efficient solutions, understanding and managing time and space complexities.
+- **Memory management**: Proper allocation and deallocation using pointers and dynamic memory handling.
+- **Data structure implementation**: Leveraging custom structures for performance gains (e.g., `conjunto_avl`).
+- **Object-oriented principles**: Structuring code for modularity, readability, and maintainability.
+
+## Technologies Utilized
+- **C++ Standard Library** for fundamental operations and container management.
+- **Custom Data Structures** to optimize performance for database operations.
+- **CMake** for build configuration and compilation.
+
+### Summary of Original Project:
+The original project laid the foundation of the database system, focusing on creating and managing tables, inserting records, and conducting basic searches. It was built to showcase robust memory management and efficient use of C++ capabilities for data processing.
+
+---
